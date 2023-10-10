@@ -74,13 +74,13 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
         flex 
         items-center 
         space-x-3 
-        p-3 
+        p-5 
         hover:bg-neutral-700
         rounded-lg
         transition
         cursor-pointer
         `,
-        selected ? 'bg-neutral-700' : 'bg-neutral-600'
+        selected ? 'bg-neutral-700' : 'bg-neutral-800'
       )}
     >
       {data.isGroup ? (
