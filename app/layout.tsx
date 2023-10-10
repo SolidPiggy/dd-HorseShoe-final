@@ -4,8 +4,8 @@ import ActiveStatus from './components/ActiveStatus'
 import ToasterContext from './context/ToasterContext'
 
 export const metadata = {
-  title: 'Messenger',
-  description: 'Messenger Clone',
+  title: 'HorseShoe',
+  description: 'A web-app for new DPSI Students to find friends, the right way!',
 }
 
 export default function RootLayout({

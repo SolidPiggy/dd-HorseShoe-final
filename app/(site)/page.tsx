@@ -12,15 +12,15 @@ const Auth = () => {
         py-12 
         sm:px-6 
         lg:px-8 
-        bg-gray-100
+        bg-neutral-900
       "
     >
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <Image
-          height="48"
-          width="48"
+          height="150"
+          width="150"
           className="mx-auto w-auto"
-          src="/images/logo.png"
+          src="/images/logo-final.png"
           alt="Logo"
         />
         <h2 
@@ -30,10 +30,10 @@ const Auth = () => {
             text-3xl 
             font-bold 
             tracking-tight 
-            text-gray-900
+            text-white
           "
           >
-            Sign in to your account
+            Sign in to HorseShoe
         </h2>
       </div>
       <AuthForm />      

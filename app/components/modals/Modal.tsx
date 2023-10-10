@@ -30,6 +30,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
               bg-gray-500 
               bg-opacity-75 
               transition-opacity
+            
             "
           />
         </Transition.Child>
@@ -44,6 +45,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
               p-4 
               text-center 
               sm:p-0
+              text-white
             "
           >
             <Transition.Child
@@ -61,7 +63,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
                   transform 
                   overflow-hidden 
                   rounded-lg 
-                  bg-white 
+                  bg-neutral-800
                   px-4 
                   pb-4
                   pt-5 
@@ -85,6 +87,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
                     pt-4 
                     sm:block
                     z-10
+                    text-white
                   "
                 >
                   <button
@@ -93,10 +96,10 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
                       rounded-md 
                       bg-white 
                       text-gray-400 
-                      hover:text-gray-500 
+                      hover:text-orange-600
                       focus:outline-none 
                       focus:ring-2 
-                      focus:ring-indigo-500 
+                      focus:ring-orange-600 
                       focus:ring-offset-2
                     "
                     onClick={onClose}
